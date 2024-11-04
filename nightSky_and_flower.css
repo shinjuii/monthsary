@@ -12,6 +12,22 @@ body {
   left: 50%;
   transform: translate(-50%, -50%) scale(1.25);
 }
+.container .circle-container {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(to bottom, #020107 0%, #201b46 40%);
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  position: absolute;
+}
 
 .container .center {
   position: relative;
